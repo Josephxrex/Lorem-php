@@ -1,0 +1,56 @@
+.container-userAdmin {
+  display: flex;
+  padding: 60px;
+  width: 100%;
+  height: 25%;
+}
+.container-table {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 75%;
+}
+
+.table-users {
+  border-radius: 5px;
+  background-color: d0cece;
+  border: 1px solid #cfcfcf;
+  width: 1150px;
+}
+
+.table-tr {
+  background-color: #e9e7e7;
+  color: #979795;
+  font-family: Radio Canada;
+  font-size: 14px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.table-td {
+  color: #979795;
+  font-family: Radio Canada;
+  font-size: 12px;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #cfcfcf;
+  justify-content: space-between;
+}
+.target-user {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+.target-user img {
+  width: 30px;
+  height: 30px;
+}
+.target-accion {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px;
+}

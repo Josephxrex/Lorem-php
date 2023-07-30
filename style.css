@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.pr-container {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+.scd-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 100vh;
+}
+.title-pr {
+  color: #09ade2;
+  font-family: Radio Canada;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 30px;
+}
+.input-cl {
+  border-radius: 6px;
+  margin-top: 3px;
+  width: 385px;
+  height: 45px;
+  padding: 15px;
+  color: #a79c9c;
+  border: 1px solid var(--border, #e3e3e8);
+  background: var(--main-white, #fff);
+}
+.form-init {
+  display: flex;
+  flex-direction: column;
+}
+.bnt-pr {
+  width: 385px;
+  padding: 12px 0px;
+  font-size: 16px;
+  font-family: Radio Canada;
+  font-style: normal;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  background: #06aee9;
+  margin-top: 20px;
+}
+.somepr-ol {
+  width: 350px;
+  color: #a79c9c;
+  text-align: center;
+  font-family: Radio Canada;
+  font-size: 15px;
+  padding: 15px;
+}
+.error {
+  color: red;
+  font-family: Radio Canada;
+  font-size: 13px;
+  margin: 5px;
+}
+/* Formulario */
+.form-user {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.scd-container-user {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  width: 50%;
+  height: 100vh;
+}
+.somepr-user {
+  width: 350px;
+  color: #a79c9c;
+  text-align: center;
+  font-family: Radio Canada;
+  font-size: 15px;
+  text-align: left;
+  padding: 15px;
+}
+/* Administracion Usuarios */
+
+
+
